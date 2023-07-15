@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Font+Name&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.navbar-brand{
+    display: flex;
+    justify-content:center;
+}
+.navbar-brand a h1{
+    font-family: "Raleway", sans-serif;
+    line-height: 1;
+    font-weight: 600;
+}
+.thrie-section {
+    display: flex;
+    justify-content:center;
+    margin-top: 4%;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 24px;
+  }
+  .thrie-section a{
+    padding-right: 24px;
+    text-decoration: none;
+    color:#383838;
+  }
+h1{
+    color:#383838;
+}
+.navbar-toggler-icon{
+    background-color: #383838;
+}
+.navbar-toggler{
+    color:black;
+}
+.navbar-toggler-icon{
+  background-color: #444444;
+}
+.navbar-toggler{
+  color: #383838;
+}
+ul{
+    width:60%;
+    display: flex;
+    justify-content:space-evenly;
+    text-decoration: none;
+    color:#383838 ;
+}
+.nav-link{
+    color: #383838;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 520;
+    padding: 10px 0 10px 30px;
+}
+.navbar-b{
+    display: flex;
+    justify-content:center;
+    width:35%;
+}
+.footer{
+    margin-bottom: 0%;
+    background-color: 	#383838;
+    height: 350px;
+    overflow: hidden;
+}
+.footer h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: Poppins, sans-serif;
+    padding: 0px;
+    margin: 0px 0px 15px;
+}
+.footer p {
+    font-style: italic;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px 0px 40px;
+    color: white;
+    object-fit: cover;
+}
+.footer .social-links i{
+    color: white;
+}
+.fab {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3894d0;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .second-section{
+    display: flex;
+    background-color: #f5f7fb;
+    height:60px;
+    padding:12px;
+  }
+  .second-section h2{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+  }
+  .second-section h3{
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    width:60%;
+    padding-bottom:0%;
+  }
+.container{
+    margin-top:4%;
+    margin-bottom:7%;
+}
+@media only screen and (max-width:320px) {
+    .navbar-brand h1{
+      padding-left:90px;
+    }
+    .second-section h2{
+      font-size: 20px;
+    }
+    .thrie-section{
+        
+        text-decoration: none;
+        color:#383838;
+        
+      }
+      .thrie-section a{
+        padding-right: 12px;
+        text-decoration: none;
+        color:#383838;
+        font-size: 2px;
+      }
+  }
+

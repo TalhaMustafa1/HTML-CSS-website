@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="viewevent.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="navbar-b">
+    <a class="navbar-brand" href="#">
+     <h1>Me & Family</h1></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="ourStory.html">Our Story </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+             <div class="col-sm-6 .col-xs-12 text-center">
+                <img src="./images/events-1.jpg" alt="" class="img-fluid">
+             </div>
+            <div class="col-sm-6 col-xs-12 text-left">
+                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </p>
+                <br>
+                 <div class="buttons">                <button id="like-button">
+                    <i class="fa fa-thumbs-up"></i>
+                    <span id="like-count">0</span>
+                  </button>
+                  <button class="comment-button">
+                    <i class="fa fa-comment"></i>
+                  </button></div> 
+                  <div class="btn">
+                    <button class="reply-button ">
+                        <i class="fa fa-reply"></i>
+                      </button>
+                  </div>
+ 
+                                    
+            </div>
+             
+        </div>
+    </div>
+     <div class="footer text-center">
+        <br><br>
+        <h3>MeFamily</h3>
+        <p style="color: aliceblue;">Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+         <div class="social-links">
+          <i class="fab fa-twitter" ></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-skype"></i>
+          <i class="fab fa-facebook"></i>
+         </div>
+         <br>
+         <p>© Copyright MeFamily. All Rights Reserved
+          <br>
+          Designed by <a href="" style="text-decoration: none;">BootstrapMade</a> 
+         </p>
+     </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </script>
+    <script>
+        const likeButton = document.getElementById('like-button');
+const likeCount = document.getElementById('like-count');
+
+let count = 0;
+
+likeButton.addEventListener('click', () => {
+  count++;
+  likeCount.innerText = count;
+});
+    </script>
+  </body>
+</html>

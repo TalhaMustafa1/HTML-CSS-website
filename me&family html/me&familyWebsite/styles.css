@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Font+Name&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.navbar-brand{
+    display: flex;
+    justify-content:center;
+    width: auto;
+}
+.navbar-brand a h1{
+    font-family: "Raleway", sans-serif;
+    line-height: 1;
+    font-weight: 600;
+}
+h1{
+    color:#383838;
+}
+.navbar-toggler-icon{
+    background-color: #444444;
+}
+.navbar-toggler{
+    color: #383838;
+}
+ul{
+    width:60%;
+    display: flex;
+    justify-content:space-evenly;
+    text-decoration: none;
+    color:#383838 ;
+}
+.nav-link{
+    color: #383838;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 520;
+    padding: 10px 0 10px 30px;
+}
+.navbar-toggler-icon {
+    color: black;
+  }
+.navbar-b{
+    display: flex;
+    justify-content:center;
+    width:35%;
+}
+.cell{
+    width:243.2px;
+    height:243.2px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.cell img{
+    
+    width:243.2px;
+    height: 340px;
+    object-fit: cover;
+}
+.underline{
+    margin:auto;
+    width:40%;
+    padding:10px;
+    height:20%;
+    position:relative;
+    }
+    #one{
+    width:30%;
+    height:1px;
+    position: relative;
+    left: 35%;
+    border:8.1 solid black;
+    z-index:4;
+    }
+
+    #two{
+        display: flex;
+        justify-content: center;
+    width:10%;
+    border: 3.2px solid #006fbe;
+    height:16px;
+    background:none;
+    height:0px;
+    margin-top: -19px;
+    z-index:2;
+    position:relative;
+    left:45%;
+    }
+  
+    .footer{
+        margin-top: 90px;
+        background-color:#383838;
+        height: 350px;
+        overflow: hidden;
+
+    }
+    .footer h3{
+        font-size: 36px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        position: relative;
+        font-family: Poppins, sans-serif;
+        padding: 0px;
+        margin: 0px 0px 15px;
+    }
+    .footer p {
+        font-style: italic;
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px 0px 40px;
+        color: white;
+        object-fit: cover;
+    }
+    .footer .social-links i{
+        color: white;
+    }
+    .fab {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #3894d0;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+      }
+
+      @media only screen and (max-width:320px) {
+        .navbar-brand h1{
+          padding-left:90px;
+        }
+      }
+
